@@ -31,7 +31,7 @@ import {expect} from 'chai';
         it('undefined', () => {
             let foo;
             expect(foo).to.be.an('undefined');
-        })
+        });
 
         it('object', () => {
             let foo = {
